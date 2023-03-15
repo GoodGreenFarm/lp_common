@@ -2,7 +2,7 @@
 @import url(normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab:wght@400;500;900&display=swap');
 
-
+//СУКА!!!! Почему это хрень не работает!!
 $main-font: 'Roboto Slab', serif;
 $script-font: 'Caveat';
 $mobile-width: 1000px;
@@ -161,7 +161,10 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: 1s;
 }
-
+.offer-button a {
+    text-decoration: none;
+    color: white;
+}
 .offer-button:hover {
     background-color: $secondary-color;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
